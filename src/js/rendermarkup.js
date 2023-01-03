@@ -63,7 +63,7 @@ const handleSubmit = e => {
   e.preventDefault();
   const form = e.currentTarget;
 
-  const searchQuery = form.elements.query.value.trim();
+  searchQuery = form.elements.query.value.trim();
 
   newApiFetches
     .fetchSearchMovie(searchQuery, 1)
