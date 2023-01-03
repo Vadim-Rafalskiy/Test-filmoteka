@@ -1,7 +1,7 @@
-import NewApiFetches from './apiFetches';
-import 'tui-pagination/dist/tui-pagination.css';
+// import NewApiFetches from './apiFetches';
+// import 'tui-pagination/dist/tui-pagination.css';
 // import { createMarkup } from './getCardsTemplate';
-import Pagination from 'tui-pagination';
+// import Pagination from 'tui-pagination';
 import renderMoviesListTemplate from './rendermarkup';
 import searchQuery from './rendermarkup';
 // import refs from './rendermarkup';
